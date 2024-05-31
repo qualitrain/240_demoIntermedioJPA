@@ -9,11 +9,11 @@ public class TestActualizacion {
 		GestorPersistencia gp = new GestorPersistencia();
 		Persona persona = gp.getPersonaXID(1);
 		System.out.println(persona);
-		persona.setProfesion("Nueva dirección");
+		persona.setProfesion("Nueva direccion");
 		if(gp.actualizarPersona(persona)==true)
-			System.out.println("Actualización exitosa");
+			System.out.println("Actualizacion exitosa");
 		else
-			System.out.println("Ha fallado la actualización");
+			System.out.println("Ha fallado la actualizacion");
 	}
 
 }

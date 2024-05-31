@@ -10,9 +10,9 @@ public class TestBorrado {
 		Persona persona = gp.getPersonaXID(1);
 		System.out.println(persona);
 		if(gp.eliminarPersona(persona)==true)
-			System.out.println("Eliminación exitosa");
+			System.out.println("Eliminacion exitosa");
 		else
-			System.out.println("Ha fallado la eliminación");
+			System.out.println("Ha fallado la eliminacion");
 
 	}
 

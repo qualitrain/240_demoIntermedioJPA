@@ -1,7 +1,6 @@
 package qtx.test;
 
 import qtx.entidades.LugarEstacionamiento;
-import qtx.entidades.Persona;
 import qtx.persistencia.GestorPersistencia;
 
 public class TestConsultaEstacionamientoXid {

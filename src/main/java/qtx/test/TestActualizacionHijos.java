@@ -13,11 +13,11 @@ public class TestActualizacionHijos {
 		System.out.println(persona);
 		persona.setProfesion("Abogado");
 		persona.getMascotas()
-		       .add( new Mascota(99,"Macarrón", TipoMascota.HAMSTER, persona) );
+		       .add( new Mascota(99,"Macarron", TipoMascota.HAMSTER, persona) );
 		if(gp.actualizarPersona(persona) == true)
-			System.out.println("Actualización exitosa");
+			System.out.println("Actualizacion exitosa");
 		else
-			System.out.println("Ha fallado la actualización");
+			System.out.println("Ha fallado la actualizacion");
 	}
 
 }
